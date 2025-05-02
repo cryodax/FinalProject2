@@ -36,6 +36,7 @@ class Logic(QMainWindow, Ui_MainWindow):
         self.label_number.setText(f"Enter a Number 1 - {len(self.__fortunes)}")
         self.stackedWidget.setCurrentIndex(1)
         self.input_number.setFocus()
+        self.label_fortune.clear()
 
 
     def show_add_fortune_page(self) -> None:
